@@ -1,0 +1,6 @@
+:l fib.scala
+:l fib.scala;
+:load fib.scala;
+scala 
+scala
+run
