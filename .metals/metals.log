@@ -1362,3 +1362,86 @@ WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
 WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
 WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Option.scala
 WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Option.scala
+INFO  started: Metals version 0.8.3 in workspace '/home/levi/Projects/fp-scala'
+INFO  time: initialize in 0.97s
+WARN  no build tool detected in workspace '/home/levi/Projects/fp-scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Option.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+INFO  no build target: using presentation compiler with only scala-library
+something's wrong: no file:///home/levi/Projects/fp-scala/chapter4/Main.scala in Seq[<error>]RangePosition(file:///home/levi/Projects/fp-scala/chapter4/Main.scala, 609, 609, 622)
+something's wrong: no file:///home/levi/Projects/fp-scala/chapter4/Main.scala in Seq[<error>]RangePosition(file:///home/levi/Projects/fp-scala/chapter4/Main.scala, 609, 609, 615)
+something's wrong: no file:///home/levi/Projects/fp-scala/chapter4/Main.scala in Seq[<error>]RangePosition(file:///home/levi/Projects/fp-scala/chapter4/Main.scala, 609, 609, 619)
+something's wrong: no file:///home/levi/Projects/fp-scala/chapter4/Main.scala in Seq[<error>]RangePosition(file:///home/levi/Projects/fp-scala/chapter4/Main.scala, 609, 609, 618)
+something's wrong: no file:///home/levi/Projects/fp-scala/chapter4/Main.scala in Seq[<error>]RangePosition(file:///home/levi/Projects/fp-scala/chapter4/Main.scala, 609, 609, 617)
+something's wrong: no file:///home/levi/Projects/fp-scala/chapter4/Main.scala in Seq[<error>]RangePosition(file:///home/levi/Projects/fp-scala/chapter4/Main.scala, 609, 609, 619)
+something's wrong: no file:///home/levi/Projects/fp-scala/chapter4/Main.scala in Seq[<error>]RangePosition(file:///home/levi/Projects/fp-scala/chapter4/Main.scala, 609, 609, 618)
+something's wrong: no file:///home/levi/Projects/fp-scala/chapter4/Main.scala in Seq[<error>]RangePosition(file:///home/levi/Projects/fp-scala/chapter4/Main.scala, 609, 609, 616)
+something's wrong: no file:///home/levi/Projects/fp-scala/chapter4/Main.scala in Seq[<error>]RangePosition(file:///home/levi/Projects/fp-scala/chapter4/Main.scala, 609, 609, 617)
+something's wrong: no file:///home/levi/Projects/fp-scala/chapter4/Main.scala in Seq[<error>]RangePosition(file:///home/levi/Projects/fp-scala/chapter4/Main.scala, 609, 609, 619)
+something's wrong: no file:///home/levi/Projects/fp-scala/chapter4/Main.scala in Seq[Double]RangePosition(file:///home/levi/Projects/fp-scala/chapter4/Main.scala, 609, 609, 620)
+something's wrong: no file:///home/levi/Projects/fp-scala/chapter4/Main.scala in Seq[Double]RangePosition(file:///home/levi/Projects/fp-scala/chapter4/Main.scala, 609, 609, 620)
+something's wrong: no file:///home/levi/Projects/fp-scala/chapter4/Main.scala in Seq[Double]RangePosition(file:///home/levi/Projects/fp-scala/chapter4/Main.scala, 609, 609, 620)
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+Apr 03, 2020 11:40:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 259
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+ERROR scalafmt: /home/levi/Projects/fp-scala/chapter4/Main.scala:34: error: ) expected but . found
+    var m = divide(xs.sum, (Double) xs.length());
+                                      ^
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+ERROR scalafmt: /home/levi/Projects/fp-scala/chapter4/Main.scala:26: error: ] expected but identifier found
+  def divide[T :> Number](a: T, b: T): Option[T] = b match {
+               ^
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+ERROR scalafmt: /home/levi/Projects/fp-scala/chapter4/Main.scala:34: error: ) expected but ; found
+    var m = divide(xs.sum, xs.length;
+                                    ^
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+Apr 04, 2020 12:04:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2305
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+something's wrong: no file:///home/levi/Projects/fp-scala/chapter4/Main.scala in Seq[<error>]RangePosition(file:///home/levi/Projects/fp-scala/chapter4/Main.scala, 1113, 1113, 1126)
+something's wrong: no file:///home/levi/Projects/fp-scala/chapter4/Main.scala in Seq[<error>]RangePosition(file:///home/levi/Projects/fp-scala/chapter4/Main.scala, 1113, 1113, 1119)
+something's wrong: no file:///home/levi/Projects/fp-scala/chapter4/Main.scala in Seq[<error>]RangePosition(file:///home/levi/Projects/fp-scala/chapter4/Main.scala, 1113, 1113, 1122)
+something's wrong: no file:///home/levi/Projects/fp-scala/chapter4/Main.scala in Seq[Double]RangePosition(file:///home/levi/Projects/fp-scala/chapter4/Main.scala, 1113, 1113, 1124)
+Apr 04, 2020 12:20:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3360
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala
+WARN  no build target for: /home/levi/Projects/fp-scala/chapter4/Main.scala

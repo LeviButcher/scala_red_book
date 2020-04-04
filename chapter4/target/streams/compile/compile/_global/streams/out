@@ -1,6 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/home/levi/Projects/fp-scala/chapter4/Main.scala:17:22: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : () => Int[0m
-[0m[[0m[31merror[0m] [0m[0m required: fpinscala.datastructure.Option[?][0m
-[0m[[0m[31merror[0m] [0m[0m    println(x.orElse(y))[0m
-[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/levi/Projects/fp-scala/chapter4/Main.scala:44:10: not found: value m[0m
+[0m[[0m[31merror[0m] [0m[0m    mean(m).flatMap(m => mean(xs.map(x => Math.pow(x - m, 2))))[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
