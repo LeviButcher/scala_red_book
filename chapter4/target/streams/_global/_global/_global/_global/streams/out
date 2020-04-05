@@ -5,539 +5,68 @@
 [0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
 [0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(a82f40942657d3208588b1af4edd7f757f993cf8), current stamp: Hash(29c81a104f6b46b743abcb8191f79f6b298fa625))[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-03 23:39:57.132 ET),Trigger)[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(03450b2841a5a94264368a709b61a457b655634f), current stamp: Hash(b019bddb64d89d4e4e7c6fd98e053c1b8c751952))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 23:31:49.861 ET),Trigger)[0m
 [0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-03 23:39:57.132 ET).[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 23:31:49.861 ET).[0m
 [0m[[0m[0minfo[0m] [0m[0m2. Monitoring source files for chapter4/run...[0m
 [0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 8 ms since the last event for this path.[0m
 [0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDropping event for unmodified path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 1 ms since the last event for this path.[0m
 [0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
 [0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(29c81a104f6b46b743abcb8191f79f6b298fa625), current stamp: Hash(0322d79cc125fa2ba8ccbc443475291b7946dfa9))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-03 23:40:50.455 ET),Trigger)[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(b019bddb64d89d4e4e7c6fd98e053c1b8c751952), current stamp: Hash(691264f7f0a0cc89b57ce418c3db1ff1ee8af28b))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 23:33:10.019 ET),Trigger)[0m
 [0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-03 23:40:50.455 ET).[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 23:33:10.019 ET).[0m
+[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
 [0m[[0m[0minfo[0m] [0m[0m3. Monitoring source files for chapter4/run...[0m
 [0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 7 ms since the last event for this path.[0m
 [0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
 [0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(0322d79cc125fa2ba8ccbc443475291b7946dfa9), current stamp: Hash(35ff07cdbc284492d2ea256ed56e8f4c11f31125))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-03 23:41:42.087 ET),Trigger)[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(691264f7f0a0cc89b57ce418c3db1ff1ee8af28b), current stamp: Hash(74511e3841acd2a52beb177658cec09cadaff747))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 23:33:10.907 ET),Trigger)[0m
 [0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-03 23:41:42.087 ET).[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 23:33:10.907 ET).[0m
 [0m[[0m[0minfo[0m] [0m[0m4. Monitoring source files for chapter4/run...[0m
 [0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
 [0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 0 ms since the last event for this path.[0m
 [0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(35ff07cdbc284492d2ea256ed56e8f4c11f31125), current stamp: Hash(b78ab60f828c2753ae748dfa8a1b4af924deaedf))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-03 23:42:24.672 ET),Trigger)[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(74511e3841acd2a52beb177658cec09cadaff747), current stamp: Hash(aa331a9734bfd3df821c6c02d26fb2aa1bc5b284))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 23:33:12.409 ET),Trigger)[0m
 [0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-03 23:42:24.672 ET).[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 23:33:12.409 ET).[0m
 [0m[[0m[0minfo[0m] [0m[0m5. Monitoring source files for chapter4/run...[0m
 [0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 1 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
 [0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
 [0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(b78ab60f828c2753ae748dfa8a1b4af924deaedf), current stamp: Hash(97894ba433a60b649627b20b39b9c22c9ba5d4cf))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-03 23:44:59.094 ET),Trigger)[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(aa331a9734bfd3df821c6c02d26fb2aa1bc5b284), current stamp: Hash(1b48ec77ffbee657076e343d49c49209d6cbef40))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 23:33:16.493 ET),Trigger)[0m
 [0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-03 23:44:59.094 ET).[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 23:33:16.493 ET).[0m
 [0m[[0m[0minfo[0m] [0m[0m6. Monitoring source files for chapter4/run...[0m
 [0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 2 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(97894ba433a60b649627b20b39b9c22c9ba5d4cf), current stamp: Hash(da39a3ee5e6b4b0d3255bfef95601890afd80709))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-03 23:55:57.716 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-03 23:55:57.716 ET).[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0minfo[0m] [0m[0m7. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 6 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(da39a3ee5e6b4b0d3255bfef95601890afd80709), current stamp: Hash(711d3cb4959f629e636ebdac19fb3666ee0a4c20))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-03 23:56:28.305 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-03 23:56:28.305 ET).[0m
-[0m[[0m[0minfo[0m] [0m[0m8. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 1 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(711d3cb4959f629e636ebdac19fb3666ee0a4c20), current stamp: Hash(7f7b009e6339369640199ae4e0f178e734aaef38))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-03 23:57:10.980 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-03 23:57:10.980 ET).[0m
-[0m[[0m[0minfo[0m] [0m[0m9. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(7f7b009e6339369640199ae4e0f178e734aaef38), current stamp: Hash(711d3cb4959f629e636ebdac19fb3666ee0a4c20))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-03 23:57:21.218 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-03 23:57:21.218 ET).[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0minfo[0m] [0m[0m10. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 1 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(711d3cb4959f629e636ebdac19fb3666ee0a4c20), current stamp: Hash(a2da1f8e26765e1c1baf23431434377a3de6cf11))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-03 23:58:02.951 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-03 23:58:02.951 ET).[0m
-[0m[[0m[0minfo[0m] [0m[0m11. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(a2da1f8e26765e1c1baf23431434377a3de6cf11), current stamp: Hash(ddcf590af31762d584c1e0a6632a20708686e945))[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-03 23:58:27.078 ET),Trigger)[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-03 23:58:27.078 ET).[0m
-[0m[[0m[0minfo[0m] [0m[0m12. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 1 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(ddcf590af31762d584c1e0a6632a20708686e945), current stamp: Hash(a1e9aec779dee7c7fd1ebae5f7cc26f03b9d5751))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-03 23:59:04.104 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-03 23:59:04.104 ET).[0m
-[0m[[0m[0minfo[0m] [0m[0m13. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 1 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(a1e9aec779dee7c7fd1ebae5f7cc26f03b9d5751), current stamp: Hash(498948fdc213e145ebf48e1187bb710aba859cd6))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-03 23:59:24.587 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-03 23:59:24.587 ET).[0m
-[0m[[0m[0minfo[0m] [0m[0m14. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 0 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(498948fdc213e145ebf48e1187bb710aba859cd6), current stamp: Hash(a1e9aec779dee7c7fd1ebae5f7cc26f03b9d5751))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-03 23:59:34.121 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-03 23:59:34.121 ET).[0m
-[0m[[0m[0minfo[0m] [0m[0m15. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 1 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(a1e9aec779dee7c7fd1ebae5f7cc26f03b9d5751), current stamp: Hash(cd37c8f1c5b0571e57e1c02e584597087f0c2d27))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:00:59.002 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:00:59.002 ET).[0m
-[0m[[0m[0minfo[0m] [0m[0m16. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(cd37c8f1c5b0571e57e1c02e584597087f0c2d27), current stamp: Hash(a32576fcd479dcf6a798bf606114a331e862f329))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:01:12.728 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:01:12.728 ET).[0m
-[0m[[0m[0minfo[0m] [0m[0m17. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 0 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(a32576fcd479dcf6a798bf606114a331e862f329), current stamp: Hash(da39a3ee5e6b4b0d3255bfef95601890afd80709))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:01:26.634 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:01:26.634 ET).[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0minfo[0m] [0m[0m18. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 5 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mDropping event for unmodified path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 2 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mDropping event for unmodified path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 2 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(da39a3ee5e6b4b0d3255bfef95601890afd80709), current stamp: Hash(74f48b636a19c2e918af2e397c0a54db2f2166af))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:01:46.282 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:01:46.282 ET).[0m
-[0m[[0m[0minfo[0m] [0m[0m19. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 1 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(74f48b636a19c2e918af2e397c0a54db2f2166af), current stamp: Hash(da39a3ee5e6b4b0d3255bfef95601890afd80709))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:02:04.167 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:02:04.167 ET).[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0minfo[0m] [0m[0m20. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 5 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(da39a3ee5e6b4b0d3255bfef95601890afd80709), current stamp: Hash(277a4ede6d2f8cfd7a4e9554642c3feb6eae7b90))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:04:41.221 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:04:41.221 ET).[0m
-[0m[[0m[0minfo[0m] [0m[0m21. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 0 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(277a4ede6d2f8cfd7a4e9554642c3feb6eae7b90), current stamp: Hash(da39a3ee5e6b4b0d3255bfef95601890afd80709))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:04:55.285 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:04:55.285 ET).[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0minfo[0m] [0m[0m22. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 3 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(da39a3ee5e6b4b0d3255bfef95601890afd80709), current stamp: Hash(9e01bd315ef3677c7b140552405a4c33c4bc6d4e))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:05:21.003 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:05:21.003 ET).[0m
-[0m[[0m[0minfo[0m] [0m[0m23. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(9e01bd315ef3677c7b140552405a4c33c4bc6d4e), current stamp: Hash(5a775e89b82e57ec1c5d8c4f4034a3a7449a5087))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:05:22.415 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:05:22.415 ET).[0m
-[0m[[0m[0minfo[0m] [0m[0m24. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 0 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(5a775e89b82e57ec1c5d8c4f4034a3a7449a5087), current stamp: Hash(da39a3ee5e6b4b0d3255bfef95601890afd80709))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:05:27.212 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:05:27.212 ET).[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0minfo[0m] [0m[0m25. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 1 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(da39a3ee5e6b4b0d3255bfef95601890afd80709), current stamp: Hash(4fb6194386ce8261809086b2b2656df7b016dd8e))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:06:00.088 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:06:00.088 ET).[0m
-[0m[[0m[0minfo[0m] [0m[0m26. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(4fb6194386ce8261809086b2b2656df7b016dd8e), current stamp: Hash(da39a3ee5e6b4b0d3255bfef95601890afd80709))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:06:40.334 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:06:40.334 ET).[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0minfo[0m] [0m[0m27. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 6 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mDropping event for unmodified path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 2 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(da39a3ee5e6b4b0d3255bfef95601890afd80709), current stamp: Hash(a121abff24e9c10b8880220f81a1d83cd7ea59e3))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:07:48.472 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:07:48.472 ET).[0m
-[0m[[0m[0minfo[0m] [0m[0m28. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 1 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(a121abff24e9c10b8880220f81a1d83cd7ea59e3), current stamp: Hash(588276e47cc9b2c251e4d9428650710e628e4c76))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:08:45.952 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:08:45.952 ET).[0m
-[0m[[0m[0minfo[0m] [0m[0m29. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 0 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(588276e47cc9b2c251e4d9428650710e628e4c76), current stamp: Hash(da39a3ee5e6b4b0d3255bfef95601890afd80709))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:08:56.424 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:08:56.424 ET).[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0minfo[0m] [0m[0m30. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 2 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mDropping event for unmodified path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 1 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(da39a3ee5e6b4b0d3255bfef95601890afd80709), current stamp: Hash(24137ce4708be1ca7f245de0a1a8a54558e7eb74))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:09:11.515 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:09:11.515 ET).[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0minfo[0m] [0m[0m31. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 4 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(24137ce4708be1ca7f245de0a1a8a54558e7eb74), current stamp: Hash(0b0a244c66a94be7cd924bcced566403045d82b6))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:09:19.231 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:09:19.231 ET).[0m
-[0m[[0m[0minfo[0m] [0m[0m32. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 1 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(0b0a244c66a94be7cd924bcced566403045d82b6), current stamp: Hash(0fba88da09b6a3b7cb454a98649f155030c00e43))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:09:23.899 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:09:23.899 ET).[0m
-[0m[[0m[0minfo[0m] [0m[0m33. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 1 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(0fba88da09b6a3b7cb454a98649f155030c00e43), current stamp: Hash(dfe1ec93c91230b72fb040ae13bb4d6ba640d82e))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:10:00.197 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:10:00.197 ET).[0m
-[0m[[0m[0minfo[0m] [0m[0m34. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(dfe1ec93c91230b72fb040ae13bb4d6ba640d82e), current stamp: Hash(74ec1905b42f4bfb99142a0e56a8924c4a04022a))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:19:40.878 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:19:40.878 ET).[0m
-[0m[[0m[0minfo[0m] [0m[0m35. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(74ec1905b42f4bfb99142a0e56a8924c4a04022a), current stamp: Hash(da39a3ee5e6b4b0d3255bfef95601890afd80709))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:20:28.231 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:20:28.231 ET).[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0minfo[0m] [0m[0m36. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 5 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mDropping event for unmodified path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 1 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(da39a3ee5e6b4b0d3255bfef95601890afd80709), current stamp: Hash(e5554374c9d06c2e55d2012f4e1537b0b6008d5c))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:20:36.658 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:20:36.658 ET).[0m
-[0m[[0m[0minfo[0m] [0m[0m37. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 1 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(e5554374c9d06c2e55d2012f4e1537b0b6008d5c), current stamp: Hash(da39a3ee5e6b4b0d3255bfef95601890afd80709))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:20:47.267 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:20:47.267 ET).[0m
-[0m[[0m[0minfo[0m] [0m[0m38. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 1 ms since the last event for this path.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(da39a3ee5e6b4b0d3255bfef95601890afd80709), current stamp: Hash(226282e107978e5cd8833cdbb87fe9ba6f980451))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:20:54.733 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:20:54.733 ET).[0m
-[0m[[0m[0minfo[0m] [0m[0m39. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /home/levi/Projects/fp-scala/chapter4/Main.scala (previous stamp: Hash(226282e107978e5cd8833cdbb87fe9ba6f980451), current stamp: Hash(83060e598059ad8f9cfb7eb6262fe98edd22a266))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /home/levi/Projects/fp-scala/chapter4/Main.scala -> Trigger. Returning: (Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:22:31.992 ET),Trigger)[0m
-[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /home/levi/Projects/fp-scala/chapter4/Main.scala. Running 'run'.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/home/levi/Projects/fp-scala/chapter4/Main.scala, 2020-Apr-04 00:22:31.992 ET).[0m
-[0m[[0m[0minfo[0m] [0m[0m40. Monitoring source files for chapter4/run...[0m
-[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mchapter4 / Compile / run - Accepted event for /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/home/levi/Projects/fp-scala/chapter4/Main.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mDropping event for unmodified path /home/levi/Projects/fp-scala/chapter4/Main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /home/levi/Projects/fp-scala/chapter4/Main.scala. This event occurred 0 ms since the last event for this path.[0m

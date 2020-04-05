@@ -21,6 +21,12 @@ object Main {
 
     println("Test variance")
     println(variance(Seq(1, 2, 3))) // 2/3
+
+    println("Test Map2")
+    println(map2(Some(2), Some(3))((a, b) => a + b))
+
+    println("Test Sequence")
+    println(sequence(List(Some(5), Some(6), Some(11))))
   }
 
   def divide(a: Double, b: Double): Option[Double] = b match {
@@ -44,4 +50,22 @@ object Main {
   }
 
   def mean(xs: Seq[Double]): Option[Double] = divide(xs.sum, xs.length)
+
+  def lift[A, B](f: A => B): Option[A] => Option[B] = _ map f
+
+  def map2[A, B, C](a: Option[A], b: Option[B])(f: (A, B) => C): Option[C] = {
+    a.flatMap(aVal => b.map(bVal => f(aVal, bVal)))
+  }
+
+  // My OG Sequence, ruins list order :(
+  // def sequence[A](as: List[Option[A]]): Option[List[A]] = as match {
+  //   case Nil     => Some(Nil)
+  //   case x :: xs => sequence(xs).flatMap(a => x.map(b => a :+ b))
+  // }
+
+  // The scala books, that doesn't ruin the order
+  def sequence[A](a: List[Option[A]]): Option[List[A]] = a match {
+    case Nil    => Some(Nil)
+    case h :: t => h flatMap (hh => sequence(t) map (hh :: _))
+  }
 }
