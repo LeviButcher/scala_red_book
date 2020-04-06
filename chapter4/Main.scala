@@ -27,6 +27,9 @@ object Main {
 
     println("Test Sequence")
     println(sequence(List(Some(5), Some(6), Some(11))))
+
+    println("Test Traverse")
+    println(traverse(List(1, 2, 3))(a => Some(a)))
   }
 
   def divide(a: Double, b: Double): Option[Double] = b match {
@@ -64,8 +67,18 @@ object Main {
   // }
 
   // The scala books, that doesn't ruin the order
-  def sequence[A](a: List[Option[A]]): Option[List[A]] = a match {
+  // def sequence[A](a: List[Option[A]]): Option[List[A]] = a match {
+  //   case Nil    => Some(Nil)
+  //   case h :: t => h flatMap (hh => sequence(t) map (hh :: _))
+  // }
+
+  // Using traverse <3
+  def sequence[A](a: List[Option[A]]): Option[List[A]] = {
+    traverse(a)(a => a)
+  }
+
+  def traverse[A, B](a: List[A])(f: A => Option[B]): Option[List[B]] = a match {
     case Nil    => Some(Nil)
-    case h :: t => h flatMap (hh => sequence(t) map (hh :: _))
+    case h :: t => traverse(t)(f).flatMap(acc => f(h).map(hh => hh :: acc))
   }
 }
