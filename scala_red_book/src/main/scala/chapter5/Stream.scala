@@ -1,9 +1,7 @@
 import scala.collection.immutable.Stream.cons
 sealed trait Stream[+A] {
-  def headOption: Option[A] = this match {
-    case Empty      => None
-    case Cons(h, t) => Some(h())
-  }
+  def headOption: Option[A] =
+    foldRight(Option.empty[A])((a, b) => Some(a))
 
   def toList: List[A] = this match {
     case Empty      => Nil
@@ -44,7 +42,29 @@ sealed trait Stream[+A] {
       if (!p(a)) false
       else b
     })
+
+  def map[B](p: A => B): Stream[B] = {
+    foldRight(Stream.empty[B])((a, b) => Stream.cons(p(a), b))
+  }
+
+  def filter(p: A => Boolean): Stream[A] = {
+    foldRight((Stream.empty[A]))((a, b) => {
+      if (p(a)) Stream.cons(a, b)
+      else b
+    })
+  }
+
+  def append[B >: A](x: => B): Stream[B] = {
+    foldRight(Stream(x))((a, b) => Stream.cons(a, b))
+  }
+
+  def flatMap[B](p: A => Stream[B]): Stream[B] = {
+    val x = foldRight(Stream.empty[Stream[B]])((a, b) => Stream.cons(p(a), b))
+    Stream.flatten(x)
+  }
+
 }
+
 case object Empty extends Stream[Nothing]
 case class Cons[+A](h: () => A, t: () => Stream[A]) extends Stream[A]
 
@@ -59,4 +79,13 @@ object Stream {
   def apply[A](as: A*): Stream[A] =
     if (as.isEmpty) empty else cons(as.head, apply(as.tail: _*))
 
+  def flatten[A](as: Stream[Stream[A]]): Stream[A] = {
+    def addStream(a: Stream[A], b: => Stream[A]) =
+      a.foldRight(b)((aa, bb) => Stream.cons(aa, bb))
+    as.foldRight(Stream.empty[A])(addStream)
+  }
+
+  def constant[A](a: A): Stream[A] = Stream.cons(a, constant(a))
+
+  def from[A](n: Int): Stream[Int] = Stream.cons(n, from(n + 1))
 }
