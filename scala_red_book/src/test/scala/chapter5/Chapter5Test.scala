@@ -67,4 +67,20 @@ class Chapter5Test extends org.scalatest.FunSuite {
     var x = Stream.from(5)
     assert(x.take(3).toList == List(5, 6, 7))
   }
+
+  test("fibs") {
+    var x = Stream.fibs()
+    assert(x.take(5).toList == List(0, 1, 1, 2, 3))
+  }
+
+  test("ZipWith") {
+    var x = Stream(1, 2, 3);
+    assert(x.zipWith(Stream(1, 2, 3))((a, b) => a + b).toList == List(2, 4, 6))
+  }
+
+  test("ZipAll") {
+    var x = Stream(1, 2, 34, 5, 64)
+    var y = Stream(1, 2)
+    println(x.zipAll(y).toList)
+  }
 }
