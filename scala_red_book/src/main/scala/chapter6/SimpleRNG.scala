@@ -12,7 +12,7 @@ case class SimpleRNG(seed: Long) extends RNG {
 }
 
 object RNG {
-  type Rand[+A] = RNG => (A, RNG)
+  type Rand[+A] = State.State[RNG, A]
 
   def unit[A](a: A): Rand[A] = rng => (a, rng)
 
