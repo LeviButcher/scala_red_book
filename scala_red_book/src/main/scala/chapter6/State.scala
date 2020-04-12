@@ -26,4 +26,5 @@ object State {
       g(a)(s2)
     }
 
+  // def sequence[S, A](fs: List[State[S, A]]): State[S, List[A]] = {}
 }
