@@ -47,7 +47,32 @@ object Par {
     sequence(fbs)
   }
 
-  def parFilter[A](as: List[A])(f: A => Boolean): Par[List[A]] = es => {
-    unit(as.filter(f))(es)
+  def parFilter[A](as: List[A])(f: A => Boolean): Par[List[A]] = {
+    val s = as.map(asyncF(x => if (f(x)) List(x) else List()))
+    map(sequence(s))(_.flatten)
+  }
+
+  def choice[A](cond: Par[Boolean])(t: Par[A], f: Par[A]): Par[A] =
+    choiceN(es => if (run(es)(cond).get()) unit(0)(es) else unit(1)(es))(
+      List(t, f)
+    )
+
+  def choiceN[A](n: Par[Int])(choices: List[Par[A]]): Par[A] = { es =>
+    {
+      val i = run(es)(n).get()
+      choices(i)(es)
+    }
+  }
+
+  def choiceMap[K, V](key: Par[K])(choices: Map[K, Par[V]]): Par[V] = es => {
+    val k = run(es)(key).get()
+    choices.get(k).get(es)
+  }
+
+  def flatMap[A, B](pa: Par[A])(choices: A => Par[B]): Par[B] =
+    join(map(pa)(choices))
+
+  def join[A](a: Par[Par[A]]): Par[A] = es => {
+    run(es)(a).get()(es)
   }
 }
