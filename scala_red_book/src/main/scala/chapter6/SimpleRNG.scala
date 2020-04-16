@@ -45,6 +45,12 @@ object RNG {
       else nonNegativeLessThan(n)
     })
 
+  def withinRange(a: Int, b: Int): Rand[Int] = rng => {
+    val (x, rng2) = rng.nextInt;
+    if (a <= x && x < b) (x, rng2)
+    withinRange(a, b)(rng)
+  }
+
   def both[A, B](ra: Rand[A], rb: Rand[B]): Rand[(A, B)] =
     map2(ra, rb)((_, _))
 
@@ -79,6 +85,12 @@ object RNG {
     val (dd, rng3) = RNG.double(rng2);
     val (ddd, rng4) = RNG.double(rng3);
     ((d, dd, ddd), rng4)
+  }
+
+  def sequence[A](fs: List[Rand[A]]): Rand[List[A]] = {
+    fs.foldLeft(unit(List.empty[A]))(
+      (acc, curr) => map2(acc, curr)((a, b) => b :: a)
+    )
   }
 
 //   def ints(count: Int)(rng: RNG): (List[Int], RNG) = {
