@@ -70,6 +70,17 @@ sealed trait Stream[+A] {
     Stream.flatten(x)
   }
 
+  def zip[B](s2: Stream[B]): Stream[(A, B)] = {
+    Stream.unfold((this, s2)) {
+      case (Cons(a, b), Cons(aa, bb)) => Some(((a(), aa()), (b(), bb())))
+      case _ => None
+    }
+  }
+
+  def find(f: A => Boolean): Option[A] = {
+    this.filter(f).headOption
+  }
+
   def zipWith[B, C](s2: Stream[B])(f: (A, B) => C): Stream[C] = {
     Stream.unfold((this, s2)) {
       case (Cons(a, b), Cons(aa, bb)) => Some((f(a(), aa()), (b(), bb())))

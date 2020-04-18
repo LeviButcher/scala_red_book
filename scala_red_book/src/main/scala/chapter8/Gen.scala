@@ -90,12 +90,14 @@ object Prop {
     randomStream(as)(rng)
       .zip(Stream.from(0))
       .take(n)
-      .map {
-        case (a, i) =>
-          try {
-            if (f(a)) Passed else Falsified(a.toString, i)
-          } catch { case e: Exception => Falsified(buildMsg(a, e), i) }
-      }
+      .map(x => {
+        x match {
+          case (a, i) =>
+            try {
+              if (f(a)) Passed else Falsified(a.toString, i)
+            } catch { case e: Exception => Falsified(buildMsg(a, e), i) }
+        }
+      })
       .find(_.isFalsified)
       .getOrElse(Passed)
   }
