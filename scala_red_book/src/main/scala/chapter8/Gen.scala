@@ -53,8 +53,28 @@ object Gen {
 // trait Prop {
 //   def check: Either[(Prop.FailedCase, Prop.SuccessCount), Prop.SuccessCount]
 // }
-case class Prop(run: (Prop.TestCases, RNG) => Prop.Result)
+case class Prop(run: (Prop.TestCases, RNG) => Prop.Result) {
+  def &&(p: Prop): Prop = {
+    Prop((t, rng) => {
+      val a = this.run(t, rng)
+      val b = p.run(t, rng)
+      (a, b) match  {
+        case (Prop.Passed, Prop.Passed) => Prop.Passed
+        case (Prop.Falsified(a, b) , Prop.Falsified(c, d) ) =>  Prop.Falsified(a + c, b + d)
+        case (Prop.Falsified(a, b), _) =>  Prop.Falsified(a , b)
+        case (_ , Prop.Falsified(c, d) ) =>  Prop.Falsified(c, d)
+      }
+    })
+  }
+  // def ||(p: Prop): Prop {
+
+  // }
+}
 object Prop {
+  type SuccessCount = Int
+  type TestCases = Int
+  type FailedCase = String
+
   sealed trait Result {
     def isFalsified: Boolean
   }
@@ -65,10 +85,6 @@ object Prop {
       extends Result {
     def isFalsified = true
   }
-  type SuccessCount = Int
-  type TestCases = Int
-  type Result = Option[(Prop.FailedCase, Prop.SuccessCount)]
-  type FailedCase = String
 
   def forAll[A](as: Gen[A])(f: A => Boolean): Prop = Prop { (n, rng) =>
     randomStream(as)(rng)
@@ -85,11 +101,11 @@ object Prop {
   }
 
   def randomStream[A](g: Gen[A])(rng: RNG): Stream[A] =
-    Stream.unfold(rng)(rng => Some(g.sample.run(rng)))
+    Stream.unfold(rng)(rng => Some(g.sample(rng)))
 
   def buildMsg[A](s: A, e: Exception): String =
     s"test ase: $s\n" +
       s"generated an exception: ${e.getMessage}\n" +
-      s"stack trace:\n ${e.getStackTraec.mkString("\n")}"
+      s"stack trace:\n ${e.getStackTrace.mkString("\n")}"
 
 }
