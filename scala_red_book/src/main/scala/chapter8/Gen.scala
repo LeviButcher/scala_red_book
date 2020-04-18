@@ -1,10 +1,19 @@
-case class Gen[A](sample: State.State[RNG, A]) {
+import Prop.Passed
+import Prop.Falsified
+case class Gen[+A](sample: State.State[RNG, A]) {
   def flatMap[B](f: A => Gen[B]): Gen[B] = {
     Gen.flatten(Gen[Gen[B]](RNG.map(this.sample)(f)))
   }
 
+  def map[B](f: A => B): Gen[B] =
+    Gen(State.map(sample)(f))
+
   def listOfN(size: Gen[Int]): Gen[List[A]] = {
     size.flatMap(i => Gen.listOfN(i, this))
+  }
+
+  def unsized: SGen[A] = {
+    SGen[A](x => this)
   }
 }
 
@@ -45,30 +54,29 @@ object Gen {
     })
   }
 
-  // def weighted[A](g1: (Gen[A], Double), g2: (Gen[A], Double)): Gen[A] = {
+  def listOf[A](g: Gen[A]): SGen[List[A]] = {
+    SGen(x => listOfN(x, g))
+  }
 
-  // }
 }
 
-// trait Prop {
-//   def check: Either[(Prop.FailedCase, Prop.SuccessCount), Prop.SuccessCount]
-// }
 case class Prop(run: (Prop.TestCases, RNG) => Prop.Result) {
   def &&(p: Prop): Prop = {
     Prop((t, rng) => {
-      val a = this.run(t, rng)
-      val b = p.run(t, rng)
-      (a, b) match  {
-        case (Prop.Passed, Prop.Passed) => Prop.Passed
-        case (Prop.Falsified(a, b) , Prop.Falsified(c, d) ) =>  Prop.Falsified(a + c, b + d)
-        case (Prop.Falsified(a, b), _) =>  Prop.Falsified(a , b)
-        case (_ , Prop.Falsified(c, d) ) =>  Prop.Falsified(c, d)
+      run(t, rng) match {
+        case Passed => p.run(t, rng)
+        case x      => x
       }
     })
   }
-  // def ||(p: Prop): Prop {
-
-  // }
+  def ||(p: Prop): Prop = {
+    Prop((t, rng) => {
+      run(t, rng) match {
+        case Falsified(failure, successes) => p.run(t, rng)
+        case x                             => x
+      }
+    })
+  }
 }
 object Prop {
   type SuccessCount = Int
@@ -109,5 +117,13 @@ object Prop {
     s"test ase: $s\n" +
       s"generated an exception: ${e.getMessage}\n" +
       s"stack trace:\n ${e.getStackTrace.mkString("\n")}"
+
+}
+
+case class SGen[+A](g: Int => Gen[A]) {
+  def apply(n: Int): Gen[A] = g(n)
+
+  def map[B](f: A => B): SGen[B] =
+    SGen { g(_) map f }
 
 }

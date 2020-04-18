@@ -5,10 +5,6 @@ object State {
 
   def map[S, A, B](s: State[S, A])(f: A => B): State[S, B] =
     flatMap(s)(a => unit(f(a)))
-  // s1 => {
-  //   val (a, s2) = s(s1)
-  //   (f(a), s2)
-  // }
 
   def map2[S, A, B, C](ra: State[S, A], rb: State[S, B])(
       f: (A, B) => C
