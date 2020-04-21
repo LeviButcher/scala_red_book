@@ -88,8 +88,8 @@ object RNG {
   }
 
   def sequence[A](fs: List[Rand[A]]): Rand[List[A]] = {
-    fs.foldLeft(unit(List.empty[A]))(
-      (acc, curr) => map2(acc, curr)((a, b) => b :: a)
+    fs.foldLeft(unit(List.empty[A]))((acc, curr) =>
+      map2(acc, curr)((a, b) => b :: a)
     )
   }
 
