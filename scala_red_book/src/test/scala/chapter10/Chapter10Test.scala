@@ -7,11 +7,10 @@ class Chapter10 extends org.scalatest.FunSuite {
       Monoid.monoidLaws(Monoid.intAddition, gen).run(50, rng) == Prop.Passed
     );
 
-    val gen2 =
-      gen.flatMap(a => Gen.unit[Int => Int](b => a))
+    val gen2 = gen.map(a => Part("Lorem", 2, "isp"))
     assert(
       Monoid
-        .monoidLaws(Monoid.endoMonoid[Int], gen2)
+        .monoidLaws(Monoid.wcMonoid, gen2)
         .run(50, rng) == Prop.Passed
     );
 
