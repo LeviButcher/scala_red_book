@@ -24,4 +24,20 @@ trait Applicative[F[_]] extends Functor[F] {
 
   def product[A, B](fa: F[A], fb: F[B]): F[(A, B)] =
     map2(fa, fb)((a, b) => (a, b))
+
+  def sequenceMap[K, V](ofa: Map[K, F[V]]): F[Map[K, V]] = {
+    (ofa foldLeft unit(Map.empty[K, V])) {
+      case (acc, (k, fv)) =>
+        map2(acc, fv)((m, v) => m + (k -> v))
+    }
+  }
+}
+
+trait Traverse[F[_]] extends Functor[F] {
+  def traverse[G[_]: Applicative, A, B](fa: F[A])(f: A => G[B]): G[F[B]] =
+    sequence(map(fa)(f))
+
+  def sequence[G[_]: Applicative, A](fga: F[G[A]]): G[F[A]] =
+    traverse(fga)(g => g)
+
 }
