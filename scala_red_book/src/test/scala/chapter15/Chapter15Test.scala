@@ -9,4 +9,16 @@ class Chapter15 extends org.scalatest.FunSuite {
     val y = List(3);
     assert(x == y)
   }
+
+  test("take while") {
+    val x = Process.takeWhile[Int](i => i % 2 == 0)(Stream(2, 4, 6, 5)).toList
+    val y = List(2, 4, 6)
+    assert(x == y)
+  }
+
+  test("Drop While") {
+    val x = Process.dropWhile[Int](i => i % 2 == 0)(Stream(2, 4, 6, 5)).toList
+    val y = List(5)
+    assert(x == y)
+  }
 }

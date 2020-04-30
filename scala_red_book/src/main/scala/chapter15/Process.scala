@@ -28,6 +28,11 @@ sealed trait Process[I, O] {
     }.repeat
   }
 
+  def |>[O2](p2: Process[O, O2]): Process[I, O2] = {
+    Await {
+      case Some(a) => Emit(p2(a), this |> p2)
+    }
+  }
 }
 case class Emit[I, O](
     head: O,
@@ -73,4 +78,18 @@ object Process {
     }
     go(n)
   }
+  def takeWhile[I](f: I => Boolean): Process[I, I] = {
+    Await {
+      case Some(a) if f(a) => Emit(a, takeWhile(f))
+      case _               => Halt()
+    }
+  }
+  def dropWhile[I](f: I => Boolean): Process[I, I] = {
+    Await {
+      case Some(a) if f(a) => dropWhile(f)
+      case Some(a)         => Emit(a, dropWhile(f))
+      case _               => Halt()
+    }
+  }
+
 }
